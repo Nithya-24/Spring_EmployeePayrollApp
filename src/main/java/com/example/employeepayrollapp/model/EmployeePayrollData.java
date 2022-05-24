@@ -3,8 +3,6 @@ package com.example.employeepayrollapp.model;
 import com.example.employeepayrollapp.dto.EmployeePayrollDTO;
 import lombok.Data;
 
-import lombok.Data;
-
 public @Data class EmployeePayrollData {
 
     private int empId;
