@@ -2,14 +2,13 @@ package com.example.employeepayrollapp.service;
 
 import com.example.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.example.employeepayrollapp.model.EmployeePayrollData;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class EmployeePayrollServiceImpl implements IEmployeePayrollService {
+public class EmployeePayrollService implements IEmployeePayrollService {
 
     private List<EmployeePayrollData> employeePayrollDataList = new ArrayList<>();
 
